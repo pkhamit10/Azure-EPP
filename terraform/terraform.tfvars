@@ -1,6 +1,5 @@
-subscription_id     = "<your-subscription-id>"
 resource_group_name = "rg-epp-dev"
-location            = "westeurope"
+location            = "francecentral"
 
 tags = {
   project     = "Azure-EPP"

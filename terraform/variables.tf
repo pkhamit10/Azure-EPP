@@ -1,7 +1,7 @@
-variable "subscription_id" {
-  description = "Azure subscription ID"
-  type        = string
-}
+# variable "subscription_id" {
+#   description = "Azure subscription ID"
+#   type        = string
+# }
 
 variable "resource_group_name" {
   description = "Name of the resource group"
@@ -11,7 +11,7 @@ variable "resource_group_name" {
 variable "location" {
   description = "Azure region"
   type        = string
-  default     = "westeurope"
+  default     = "francecentral"
 }
 
 variable "tags" {

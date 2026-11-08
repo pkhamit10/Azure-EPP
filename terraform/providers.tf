@@ -1,6 +1,9 @@
 terraform {
   required_version = ">= 1.5.0"
 
+  # Values are supplied by the pipeline through -backend-config
+  backend "azurerm" {}
+
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
